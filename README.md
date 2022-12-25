@@ -1,2 +1,3 @@
 # googleanimation
-JUST prac of animations
+Just prac of animations
+link:'https://googleanimation.netlify.app/'
