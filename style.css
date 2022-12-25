@@ -1,0 +1,56 @@
+
+.google{
+font-size:100px;
+animation-name:trans;
+animation-duration:2s;
+animation-iteration-count:infinite;
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:1.5px;
+text-align:center;
+
+}
+@keyframes trans {
+  0%{
+      color: blue;
+  }  
+   25%{
+        color: red;
+    }
+    50%{
+        color:yellow;
+    }
+    100%{
+        color: green;
+    }
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.search-bar{
+    padding:20px;
+    display:flex;
+    margin:auto;
+    width:700px;
+    border-radius:25px;
+    border-color: black;
+}
+.search-bar:hover{
+  animation-name:trans2;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes trans2 {
+    
+    0%{
+        border-color: blue;
+    }  
+     25%{
+          border-color: red;
+      }
+      50%{
+          border-color:yellow;
+      }
+      100%{
+          border-color: green;
+      }
+}
