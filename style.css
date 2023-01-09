@@ -56,4 +56,22 @@ body{
 }
 input{ 
 Caret-color:blue;
+animation-name:trans3;
+animation-duration:2s;
+animation-iteration-count:infinite;
 }
+@keyframes trans3 {
+    
+    0%{
+        Caret-color: blue;
+    }  
+     25%{
+          Caret-color: red;
+      }
+      50%{
+          Caret-color:yellow;
+      }
+      100%{
+          Caret-color: green;
+      }
+
